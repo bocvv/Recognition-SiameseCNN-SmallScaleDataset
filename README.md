@@ -1,2 +1,5 @@
 # Recognition-SiameseCNN-SmallScaleDataset
-##SAR Target Recognition Based on Siamese CNN with Small Scale Dataset
+SAR Target Recognition Based on Siamese CNN with Small Scale Dataset
+
+ Abstract：In view of the large amount of labeling data required by supervised learning in deep learning, a SAR target recognition method based on small scale training dataset is proposed in this paper, which solves the problems of high cost of manual labeling and insufficient labeling SAR samples in SAR images. Through the strategy of constructing positive and negative sample pairs, the training set is enlarged and the data volume is greatly increased. Secondly, a Siamese CNN method combining metric learning and deep CNN is proposed to measure the similarity probability between samples. Then, a multi-task joint learning for model training is adopted to effectively alleviate the problem, which reduces the risk of over-fitting caused by excessive noise in SAR images. Finally, a weighted voting model based on Siamese CNN is designed to infer specific categories of samples. MSTAR and OpenSarShip datasets are used in the experiment, and good recognition results are obtained through the above methods under small data set.
+ Key words：small scale dataset; Siamese CNN; SAR target recognition; overfitting
